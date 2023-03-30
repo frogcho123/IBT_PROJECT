@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    list-style-type: none;
+    height: 60px;
+    line-height: 60px;
+    background-color: gray;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    width: 100px;
+}
+ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+ul li:hover{
+    transform: translateY(-20%);
+}

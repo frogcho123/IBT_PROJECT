@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    list-style-type: none;
+    height: 60px;
+    line-height: 60px;
+    background-color: gray;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    width: 100px;
+}
+ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+ul li:hover{
+    transform: translateY(-20%);
+}
+
+
+div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color:white;
+}
+.one{
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background:url(/images/bmwE39.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+.two{
+    float: left;  
+    height: 100vh;
+    width: 100%;
+    background:url(/images/audi.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+.three{
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background:url(/images/mercedes.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+.four{
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background:url(/images/toyota-supra.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+.five{
+    float: left;
+    height: 100vh;
+     width: 100%;
+     background:url(/images/subaru.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+.six{
+    float:left;
+    height: 100vh;
+    width: 100%;
+    background:url(/images/GTR.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+main{
+     margin-top:60px ;
+}

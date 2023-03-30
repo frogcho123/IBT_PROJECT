@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/bmwstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="log-in.html">Log in</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+        <h1>BMW</h1>
+    </header>
+    <main>
+        <img src="/images/toyota-supra.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel magnam assumenda tempora nam saepe repudiandae
+            sunt repellat nesciunt. Reprehenderit nulla libero maiores dolore id quia officiis ab magnam perspiciatis
+            soluta a, molestias tenetur eum inventore aliquam error porro ullam nisi voluptatem! Nam ipsa minima harum
+            suscipit architecto! Harum, quidem nulla.</p>
+        <br>
+        <h1>Price:200$</h1>
+        <div class="container">
+            <div class="card">
+                <div class="enter-msg">
+                    <h1>Reviews you would like to send</h1>
+                    <div class="input-sec">
+                        <input id="message-input" type="text" placeholder="Enter your review!">
+                        <button onclick="sendMessage()">Send Review</button>
+                    </div>
+                </div>
+                <div class="display-msg">
+                    <h2>Reviews</h2>
+                    <ol id="send-messages">
+                        <li id="no-msg">No Reviews sent so far</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
